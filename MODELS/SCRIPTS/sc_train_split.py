@@ -94,12 +94,14 @@ def _np_random_start_end(start, end, strand, width):
     return end - width, end
 
 
-def main(head_dir="/n/groups/churchman/dmm57/COLAB/", training_regions=16):
-  """ TODO: modulate 'head_dir' variable
-    head_dir := FIDDLE head directory
-    training_regions := number of randomly sampled regions per gene"""
+def main(training_regions=16):
+  """ split training data
+    training_regions := number of randomly sampled regions per gene
+
+    >>> python3.6 sc_train_split.py < head_dir > < run >"""
   # ancillary
-  run = str(sys.argv[1])
+  head_dir = str(sys.argv[1])
+  run = str(sys.argv[2])
   collated_dir = head_dir + "/DATA/COLLATED/"
   model_inputs_dir = head_dir + "/MODELS/INPUTS/"
   # load dataframes
