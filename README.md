@@ -5,9 +5,12 @@ a deep neural network approach towards integration and inference of functional g
 
 ![alt text](https://github.com/churchmanlab/FIDDLE/blob/master/architecture.png)
 
-### [try it 🎻](https://colab.research.google.com/github/churchmanlab/FIDDLE/blob/master/fiddle.ipynb)
+### [FIDDLE notebook 🎻](https://colab.research.google.com/github/churchmanlab/FIDDLE/blob/master/fiddle.ipynb)
 
-### set up
+*_note_*: running FIDDLE more easily done via HPC cluster with GPUs
+
+[environment instructions](https://github.com/churchmanlab/FIDDLE/blob/master/HPC_instructions.md)
+
 ```bash
 directory architecture
 
@@ -23,8 +26,3 @@ directory architecture
 │   │   ├── TRAINED/
 │   │   ├── SCRIPTS/
 ```
-
-### environment
-*_note_*: running FIDDLE more easily done via HPC cluster with GPUs
-
-[environment instructions](https://github.com/churchmanlab/FIDDLE/blob/master/HPC_instructions.md)
