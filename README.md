@@ -17,10 +17,10 @@ directory architecture
 ├── < head_dir >
 │   ├── logs/
 │   ├── DATA/
-│   │   ├── RAW/ # start here
-│   │   |   ├── annotations
-│   │   |   ├── bedgraphs
-│   │   |   ├── txt
+│   │   ├── RAW/
+│   │   │   ├── annotations
+│   │   │   ├── bedgraphs
+│   │   │   ├── txt
 │   │   ├── COLLATED/
 │   ├── MODELS
 │   │   ├── FIGURES_STATS/
@@ -28,7 +28,7 @@ directory architecture
 │   │   ├── OUTPUTS/
 │   │   ├── TRAINED/
 │   │   ├── SCRIPTS/
-│   │   |   ├── sc_train_split.py
-│   │   |   ├── fiddle.py
-│   │   |   ├── collate_outputs.py
+│   │   │   ├── sc_train_split.py
+│   │   │   ├── fiddle.py
+│   │   │   ├── collate_outputs.py
 ```
