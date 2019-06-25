@@ -3,8 +3,6 @@
 ### Flexible Integration of Data with Deep LEarning
 a novel deep neural network approach for the integration and inference of functional genomic data
 
-![alt text](https://github.com/churchmanlab/FIDDLE/blob/master/architecture.png)
-
 ### [FIDDLE notebook 🎻](https://colab.research.google.com/github/churchmanlab/FIDDLE/blob/master/fiddle.ipynb)
 
 **_note_**: an HPC cluster with GPUs is recommended
@@ -32,3 +30,5 @@ directory architecture
 │   │   │   ├── fiddle.py
 │   │   │   ├── collate_outputs.py
 ```
+
+![alt text](https://github.com/churchmanlab/FIDDLE/blob/master/architecture.png)
