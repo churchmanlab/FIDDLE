@@ -4,15 +4,26 @@ a neural network based approach towards functional genomic data integration
 
 ![alt text](https://github.com/churchmanlab/FIDDLE/blob/master/architecture.png)
 
+# [try it 🎻](https://colab.research.google.com/github/churchmanlab/FIDDLE/blob/master/fiddle.ipynb)
+
+### set up
 ```bash
-├── head_dir
-│   ├── logs
-│   ├── DATA
-│   │   ├── RAW (bedgraphs, annotation files, etc)
-│   │   ├── COLLATED (collated raw data)
+directory architecture
+
+├── < head_dir >
+│   ├── logs/
+│   ├── DATA/
+│   │   ├── RAW/
+│   │   ├── COLLATED/
 │   ├── MODELS
-│   │   ├── INPUTS (collated data in binarized numpy form)
-│   │   ├── OUTPUTS (predictions)
-│   │   ├── TRAINED (trained models, hdf5 form)
-│   │   ├── SCRIPTS ()
+│   │   ├── FIGURES_STATS/
+│   │   ├── INPUTS/
+│   │   ├── OUTPUTS/
+│   │   ├── TRAINED/
+│   │   ├── SCRIPTS/
 ```
+
+### environment
+*_note_*: running FIDDLE more easily done via HPC cluster with GPUs
+
+[instructions](https://github.com/churchmanlab/FIDDLE/blob/master/HPC_instructions.md)
