@@ -99,7 +99,7 @@ function ig () { # interactive gpu
 function ms () { # module source
   module load gcc/6.2.0 python/3.6.0 cuda/9.0
   source ~/colab_venv/bin/activate
-  cd < _head_dir >
+  cd < head_dir >
 }
 # start jupyter lab
 function sjl () {
