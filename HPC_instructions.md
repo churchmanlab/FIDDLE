@@ -1,6 +1,6 @@
 ## High-Performance Computing (HPC) context
 
-The following are instructions for setting up and connecting a Google CoLab session to your HPC environment of choice. This project was conducted on Harvard Medical School's HPC Computer Cluster [O2](https://wiki.rc.hms.harvard.edu/display/O2), a [SLURM](https://en.wikipedia.org/wiki/Slurm_Workload_Manager) based Linux job scheduler.
+All data collation and analysis was done via the Google CoLab coding medium. The following are instructions for setting up and connecting a Google CoLab session to your HPC environment of choice. This project was conducted on Harvard Medical School's HPC Computer Cluster [O2](https://wiki.rc.hms.harvard.edu/display/O2), a [SLURM](https://en.wikipedia.org/wiki/Slurm_Workload_Manager) based Linux job scheduler.
 
 ## setup
 
@@ -99,7 +99,7 @@ function ig () { # interactive gpu
 function ms () { # module source
   module load gcc/6.2.0 python/3.6.0 cuda/9.0
   source ~/colab_venv/bin/activate
-  cd /n/groups/<your lab>/<your username>/<...>
+  cd < _head_dir >
 }
 # start jupyter lab
 function sjl () {
