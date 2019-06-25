@@ -18,6 +18,9 @@ directory architecture
 │   ├── logs/
 │   ├── DATA/
 │   │   ├── RAW/ # start here
+│   │   |   ├── annotations
+│   │   |   ├── bedgraphs
+│   │   |   ├── txt
 │   │   ├── COLLATED/
 │   ├── MODELS
 │   │   ├── FIGURES_STATS/
@@ -25,4 +28,7 @@ directory architecture
 │   │   ├── OUTPUTS/
 │   │   ├── TRAINED/
 │   │   ├── SCRIPTS/
+│   │   |   ├── sc_train_split.py
+│   │   |   ├── fiddle.py
+│   │   |   ├── collate_outputs.py
 ```
