@@ -22,7 +22,7 @@ directory architecture
 │   │   │   ├── bedgraphs
 │   │   │   ├── txt
 │   │   ├── COLLATED/
-│   ├── MODELS
+│   ├── MODELS/
 │   │   ├── FIGURES_STATS/
 │   │   ├── INPUTS/
 │   │   ├── OUTPUTS/
