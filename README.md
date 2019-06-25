@@ -17,7 +17,7 @@ directory architecture
 ├── < head_dir >
 │   ├── logs/
 │   ├── DATA/
-│   │   ├── RAW/
+│   │   ├── RAW/ # start here
 │   │   ├── COLLATED/
 │   ├── MODELS
 │   │   ├── FIGURES_STATS/
