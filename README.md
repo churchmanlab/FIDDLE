@@ -7,9 +7,9 @@ a novel deep neural network approach for the integration and inference of functi
 
 ### [FIDDLE notebook 🎻](https://colab.research.google.com/github/churchmanlab/FIDDLE/blob/master/fiddle.ipynb)
 
-*_note_*: running FIDDLE more easily done via HPC cluster with GPUs
+**_note_**: an HPC cluster with GPUs is recommended
 
-[environment instructions](https://github.com/churchmanlab/FIDDLE/blob/master/HPC_instructions.md)
+[coding environment instructions](https://github.com/churchmanlab/FIDDLE/blob/master/HPC_instructions.md)
 
 ```bash
 directory architecture
