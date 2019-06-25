@@ -1,6 +1,6 @@
 ## High-Performance Computing (HPC) context
 
-There is likely a more efficient way to do the below, but it works. This project was conducted on Harvard Medical School's HPC Computer Cluster [O2](https://wiki.rc.hms.harvard.edu/display/O2), a [SLURM](https://en.wikipedia.org/wiki/Slurm_Workload_Manager) based Linux job scheduler.
+The following are instructions for setting up and connecting a Google CoLab session to your HPC environment of choice. This project was conducted on Harvard Medical School's HPC Computer Cluster [O2](https://wiki.rc.hms.harvard.edu/display/O2), a [SLURM](https://en.wikipedia.org/wiki/Slurm_Workload_Manager) based Linux job scheduler.
 
 ## setup
 
