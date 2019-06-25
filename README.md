@@ -1,7 +1,7 @@
 # FIDDLE
 
 ### Flexible Integration of Data with Deep LEarning
-a deep neural network approach towards integration and inference of functional genomic data
+a novel deep neural network approach for the integration and inference of functional genomic data
 
 ![alt text](https://github.com/churchmanlab/FIDDLE/blob/master/architecture.png)
 
